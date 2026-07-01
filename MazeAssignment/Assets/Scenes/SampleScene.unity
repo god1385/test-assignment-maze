@@ -18781,8 +18781,6 @@ MonoBehaviour:
   - {fileID: 2296130304395230443}
   - {fileID: 2296130304568751673}
   - {fileID: 2296130304094007532}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &951386291
 GameObject:
   m_ObjectHideFlags: 0
@@ -23305,6 +23303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _triggerCollider: {fileID: 1263657678}
+  _playerTag: Player
 --- !u!65 &1263657678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27748,6 +27747,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   _targetHeightOffset: 1
   _proximityRadius: 2
+  _playerTag: Player
 --- !u!65 &1465527314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37363,6 +37363,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   _targetHeightOffset: 1
   _proximityRadius: 2
+  _playerTag: Player
 --- !u!65 &1958734672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40380,6 +40381,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   _targetHeightOffset: 1
   _proximityRadius: 2
+  _playerTag: Player
 --- !u!65 &2113878437
 BoxCollider:
   m_ObjectHideFlags: 0
